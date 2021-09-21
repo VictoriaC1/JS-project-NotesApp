@@ -1,0 +1,54 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+</style>
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Architects Daughter', cursive; 
+	background-color: #7bdaf3;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.notes{
+	height: 400px; 
+	width: 400px;
+	background-color: white;
+	margin: 20px;
+}
+.notes .tools{
+	background-color: royalblue;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0.5rem;
+}
+.notes .tools button{
+	background-color: transparent;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	margin-left: 0.5rem;
+}
+.notes .main{
+	display: none;
+	height: 400px;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+
+
+}
+.notes textarea{
+	outline: none;
+	font-family: inherit;
+	height: 400px;
+	width: 100%;
+	border: none;
+	font-size: 1.2rem;
+}
+.notes .hidden{
+	display: none;
+}
